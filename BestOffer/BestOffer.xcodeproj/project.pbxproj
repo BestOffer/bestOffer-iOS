@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		7B50E4801AF851C7005E0F34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B50E47F1AF851C7005E0F34 /* main.m */; };
 		7B50E4831AF851C7005E0F34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B50E4821AF851C7005E0F34 /* AppDelegate.m */; };
-		7B50E4861AF851C7005E0F34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B50E4851AF851C7005E0F34 /* ViewController.m */; };
+		7B50E4861AF851C7005E0F34 /* MarketListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B50E4851AF851C7005E0F34 /* MarketListViewController.m */; };
 		7B50E4891AF851C7005E0F34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B50E4871AF851C7005E0F34 /* Main.storyboard */; };
 		7B50E48B1AF851C7005E0F34 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B50E48A1AF851C7005E0F34 /* Images.xcassets */; };
 		7B50E48E1AF851C7005E0F34 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B50E48C1AF851C7005E0F34 /* LaunchScreen.xib */; };
@@ -32,8 +32,8 @@
 		7B50E47F1AF851C7005E0F34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7B50E4811AF851C7005E0F34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7B50E4821AF851C7005E0F34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7B50E4841AF851C7005E0F34 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7B50E4851AF851C7005E0F34 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7B50E4841AF851C7005E0F34 /* MarketListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarketListViewController.h; sourceTree = "<group>"; };
+		7B50E4851AF851C7005E0F34 /* MarketListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarketListViewController.m; sourceTree = "<group>"; };
 		7B50E4881AF851C7005E0F34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B50E48A1AF851C7005E0F34 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7B50E48D1AF851C7005E0F34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -83,8 +83,8 @@
 			children = (
 				7B50E4811AF851C7005E0F34 /* AppDelegate.h */,
 				7B50E4821AF851C7005E0F34 /* AppDelegate.m */,
-				7B50E4841AF851C7005E0F34 /* ViewController.h */,
-				7B50E4851AF851C7005E0F34 /* ViewController.m */,
+				7B50E4841AF851C7005E0F34 /* MarketListViewController.h */,
+				7B50E4851AF851C7005E0F34 /* MarketListViewController.m */,
 				7B50E4871AF851C7005E0F34 /* Main.storyboard */,
 				7B50E48A1AF851C7005E0F34 /* Images.xcassets */,
 				7B50E48C1AF851C7005E0F34 /* LaunchScreen.xib */,
@@ -219,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B50E4861AF851C7005E0F34 /* ViewController.m in Sources */,
+				7B50E4861AF851C7005E0F34 /* MarketListViewController.m in Sources */,
 				7B50E4831AF851C7005E0F34 /* AppDelegate.m in Sources */,
 				7B50E4801AF851C7005E0F34 /* main.m in Sources */,
 			);
@@ -418,6 +418,7 @@
 				7B50E49F1AF851C7005E0F34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B50E4A01AF851C7005E0F34 /* Build configuration list for PBXNativeTarget "BestOfferTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +427,7 @@
 				7B50E4A21AF851C7005E0F34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
