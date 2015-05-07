@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B45E9A11AFAFB4000CA9101 /* CompanyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B45E9A01AFAFB4000CA9101 /* CompanyModel.m */; };
 		7B50E4801AF851C7005E0F34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B50E47F1AF851C7005E0F34 /* main.m */; };
 		7B50E4831AF851C7005E0F34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B50E4821AF851C7005E0F34 /* AppDelegate.m */; };
 		7B50E4861AF851C7005E0F34 /* MarketListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B50E4851AF851C7005E0F34 /* MarketListViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B45E99F1AFAFB4000CA9101 /* CompanyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CompanyModel.h; path = Model/CompanyModel.h; sourceTree = "<group>"; };
+		7B45E9A01AFAFB4000CA9101 /* CompanyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CompanyModel.m; path = Model/CompanyModel.m; sourceTree = "<group>"; };
 		7B50E47A1AF851C7005E0F34 /* BestOffer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestOffer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B50E47E1AF851C7005E0F34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B50E47F1AF851C7005E0F34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +63,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B45E99A1AFAFAC400CA9101 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7B50E4841AF851C7005E0F34 /* MarketListViewController.h */,
+				7B50E4851AF851C7005E0F34 /* MarketListViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		7B45E99C1AFAFADD00CA9101 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				7B50E4811AF851C7005E0F34 /* AppDelegate.h */,
+				7B50E4821AF851C7005E0F34 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		7B45E99D1AFAFAEC00CA9101 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7B50E4871AF851C7005E0F34 /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		7B45E99E1AFAFB1500CA9101 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7B45E99F1AFAFB4000CA9101 /* CompanyModel.h */,
+				7B45E9A01AFAFB4000CA9101 /* CompanyModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		7B50E4711AF851C7005E0F34 = {
 			isa = PBXGroup;
 			children = (
@@ -81,14 +119,13 @@
 		7B50E47C1AF851C7005E0F34 /* BestOffer */ = {
 			isa = PBXGroup;
 			children = (
-				7B50E4811AF851C7005E0F34 /* AppDelegate.h */,
-				7B50E4821AF851C7005E0F34 /* AppDelegate.m */,
-				7B50E4841AF851C7005E0F34 /* MarketListViewController.h */,
-				7B50E4851AF851C7005E0F34 /* MarketListViewController.m */,
-				7B50E4871AF851C7005E0F34 /* Main.storyboard */,
+				7B45E99E1AFAFB1500CA9101 /* Model */,
+				7B45E99C1AFAFADD00CA9101 /* AppDelegate */,
 				7B50E48A1AF851C7005E0F34 /* Images.xcassets */,
 				7B50E48C1AF851C7005E0F34 /* LaunchScreen.xib */,
+				7B45E99D1AFAFAEC00CA9101 /* Storyboard */,
 				7B50E47D1AF851C7005E0F34 /* Supporting Files */,
+				7B45E99A1AFAFAC400CA9101 /* ViewController */,
 			);
 			path = BestOffer;
 			sourceTree = "<group>";
@@ -220,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B50E4861AF851C7005E0F34 /* MarketListViewController.m in Sources */,
+				7B45E9A11AFAFB4000CA9101 /* CompanyModel.m in Sources */,
 				7B50E4831AF851C7005E0F34 /* AppDelegate.m in Sources */,
 				7B50E4801AF851C7005E0F34 /* main.m in Sources */,
 			);
