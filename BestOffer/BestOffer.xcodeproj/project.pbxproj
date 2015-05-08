@@ -15,6 +15,7 @@
 		7B50E48B1AF851C7005E0F34 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B50E48A1AF851C7005E0F34 /* Images.xcassets */; };
 		7B50E48E1AF851C7005E0F34 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B50E48C1AF851C7005E0F34 /* LaunchScreen.xib */; };
 		7B50E49A1AF851C7005E0F34 /* BestOfferTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B50E4991AF851C7005E0F34 /* BestOfferTests.m */; };
+		7B6ED2D81AFC507E00A04417 /* ProductModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6ED2D71AFC507E00A04417 /* ProductModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		7B50E4931AF851C7005E0F34 /* BestOfferTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BestOfferTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B50E4981AF851C7005E0F34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B50E4991AF851C7005E0F34 /* BestOfferTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BestOfferTests.m; sourceTree = "<group>"; };
+		7B6ED2D61AFC507E00A04417 /* ProductModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductModel.h; path = Model/ProductModel.h; sourceTree = "<group>"; };
+		7B6ED2D71AFC507E00A04417 /* ProductModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductModel.m; path = Model/ProductModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 			children = (
 				7B45E99F1AFAFB4000CA9101 /* CompanyModel.h */,
 				7B45E9A01AFAFB4000CA9101 /* CompanyModel.m */,
+				7B6ED2D61AFC507E00A04417 /* ProductModel.h */,
+				7B6ED2D71AFC507E00A04417 /* ProductModel.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -258,6 +263,7 @@
 			files = (
 				7B50E4861AF851C7005E0F34 /* MarketListViewController.m in Sources */,
 				7B45E9A11AFAFB4000CA9101 /* CompanyModel.m in Sources */,
+				7B6ED2D81AFC507E00A04417 /* ProductModel.m in Sources */,
 				7B50E4831AF851C7005E0F34 /* AppDelegate.m in Sources */,
 				7B50E4801AF851C7005E0F34 /* main.m in Sources */,
 			);
