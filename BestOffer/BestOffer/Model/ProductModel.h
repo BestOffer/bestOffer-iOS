@@ -10,4 +10,10 @@
 
 @interface ProductModel : NSObject
 
+@property(nonatomic,strong) NSNumber *identifier;
+@property(nonatomic,strong) NSString *name;
+@property(nonatomic,strong) NSNumber *price;
+@property(nonatomic,strong) NSString *imageUrl;
+@property(nonatomic,strong) NSData *image;
+
 @end
