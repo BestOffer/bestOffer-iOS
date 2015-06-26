@@ -10,4 +10,7 @@
 
 @interface CompanyModel : NSObject
 
+@property(nonatomic,strong) NSNumber *identifier;
+@property(nonatomic,strong) NSString *name;
+
 @end
