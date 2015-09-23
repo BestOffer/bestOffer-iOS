@@ -11,6 +11,7 @@
 @interface MarketListViewController()<UITableViewDataSource,UITableViewDelegate>
 
 @property(nonatomic,strong) IBOutlet UITableView *tableView;
+@property(nonatomic,strong) IBOutlet NSArray *marketList;
 
 @end
 
