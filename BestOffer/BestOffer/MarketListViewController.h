@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MarketListViewController : UIViewController
+#import "GenericViewController.h"
+
+@interface MarketListViewController : GenericViewController
 
 
 @end

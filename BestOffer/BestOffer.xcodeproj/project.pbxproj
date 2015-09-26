@@ -16,6 +16,7 @@
 		7B50E48E1AF851C7005E0F34 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B50E48C1AF851C7005E0F34 /* LaunchScreen.xib */; };
 		7B50E49A1AF851C7005E0F34 /* BestOfferTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B50E4991AF851C7005E0F34 /* BestOfferTests.m */; };
 		7B6ED2D81AFC507E00A04417 /* ProductModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6ED2D71AFC507E00A04417 /* ProductModel.m */; };
+		7BF219F61BB629620068640F /* GenericViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF219F51BB629620068640F /* GenericViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		7B50E4991AF851C7005E0F34 /* BestOfferTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BestOfferTests.m; sourceTree = "<group>"; };
 		7B6ED2D61AFC507E00A04417 /* ProductModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductModel.h; path = Model/ProductModel.h; sourceTree = "<group>"; };
 		7B6ED2D71AFC507E00A04417 /* ProductModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductModel.m; path = Model/ProductModel.m; sourceTree = "<group>"; };
+		7BF219F41BB629620068640F /* GenericViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GenericViewController.h; path = Controller/GenericViewController.h; sourceTree = "<group>"; };
+		7BF219F51BB629620068640F /* GenericViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GenericViewController.m; path = Controller/GenericViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +69,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7B45E99A1AFAFAC400CA9101 /* ViewController */ = {
+		7B45E99A1AFAFAC400CA9101 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				7B50E4841AF851C7005E0F34 /* MarketListViewController.h */,
 				7B50E4851AF851C7005E0F34 /* MarketListViewController.m */,
+				7BF219F41BB629620068640F /* GenericViewController.h */,
+				7BF219F51BB629620068640F /* GenericViewController.m */,
 			);
-			name = ViewController;
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		7B45E99C1AFAFADD00CA9101 /* AppDelegate */ = {
@@ -130,7 +135,7 @@
 				7B50E48C1AF851C7005E0F34 /* LaunchScreen.xib */,
 				7B45E99D1AFAFAEC00CA9101 /* Storyboard */,
 				7B50E47D1AF851C7005E0F34 /* Supporting Files */,
-				7B45E99A1AFAFAC400CA9101 /* ViewController */,
+				7B45E99A1AFAFAC400CA9101 /* Controller */,
 			);
 			path = BestOffer;
 			sourceTree = "<group>";
@@ -263,6 +268,7 @@
 			files = (
 				7B50E4861AF851C7005E0F34 /* MarketListViewController.m in Sources */,
 				7B45E9A11AFAFB4000CA9101 /* CompanyModel.m in Sources */,
+				7BF219F61BB629620068640F /* GenericViewController.m in Sources */,
 				7B6ED2D81AFC507E00A04417 /* ProductModel.m in Sources */,
 				7B50E4831AF851C7005E0F34 /* AppDelegate.m in Sources */,
 				7B50E4801AF851C7005E0F34 /* main.m in Sources */,
