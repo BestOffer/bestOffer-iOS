@@ -10,7 +10,6 @@
 		7B45E9A11AFAFB4000CA9101 /* CompanyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B45E9A01AFAFB4000CA9101 /* CompanyModel.m */; };
 		7B50E4801AF851C7005E0F34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B50E47F1AF851C7005E0F34 /* main.m */; };
 		7B50E4831AF851C7005E0F34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B50E4821AF851C7005E0F34 /* AppDelegate.m */; };
-		7B50E4861AF851C7005E0F34 /* MarketListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B50E4851AF851C7005E0F34 /* MarketListViewController.m */; };
 		7B50E4891AF851C7005E0F34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B50E4871AF851C7005E0F34 /* Main.storyboard */; };
 		7B50E48B1AF851C7005E0F34 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B50E48A1AF851C7005E0F34 /* Images.xcassets */; };
 		7B50E48E1AF851C7005E0F34 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B50E48C1AF851C7005E0F34 /* LaunchScreen.xib */; };
@@ -18,6 +17,7 @@
 		7B6ED2D81AFC507E00A04417 /* ProductModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6ED2D71AFC507E00A04417 /* ProductModel.m */; };
 		7BF219F61BB629620068640F /* GenericViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF219F51BB629620068640F /* GenericViewController.m */; settings = {ASSET_TAGS = (); }; };
 		7BF219F91BB629D40068640F /* ProductListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF219F81BB629D30068640F /* ProductListViewController.m */; settings = {ASSET_TAGS = (); }; };
+		7BF219FC1BB62A3E0068640F /* MarketListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF219FB1BB62A3D0068640F /* MarketListViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +38,6 @@
 		7B50E47F1AF851C7005E0F34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7B50E4811AF851C7005E0F34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7B50E4821AF851C7005E0F34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7B50E4841AF851C7005E0F34 /* MarketListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarketListViewController.h; sourceTree = "<group>"; };
-		7B50E4851AF851C7005E0F34 /* MarketListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarketListViewController.m; sourceTree = "<group>"; };
 		7B50E4881AF851C7005E0F34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B50E48A1AF851C7005E0F34 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7B50E48D1AF851C7005E0F34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -52,6 +50,8 @@
 		7BF219F51BB629620068640F /* GenericViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GenericViewController.m; path = Controller/GenericViewController.m; sourceTree = "<group>"; };
 		7BF219F71BB629D30068640F /* ProductListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductListViewController.h; path = Controller/ProductListViewController.h; sourceTree = "<group>"; };
 		7BF219F81BB629D30068640F /* ProductListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductListViewController.m; path = Controller/ProductListViewController.m; sourceTree = "<group>"; };
+		7BF219FA1BB62A3D0068640F /* MarketListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MarketListViewController.h; path = Controller/MarketListViewController.h; sourceTree = "<group>"; };
+		7BF219FB1BB62A3D0068640F /* MarketListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MarketListViewController.m; path = Controller/MarketListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,10 +75,10 @@
 		7B45E99A1AFAFAC400CA9101 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				7B50E4841AF851C7005E0F34 /* MarketListViewController.h */,
-				7B50E4851AF851C7005E0F34 /* MarketListViewController.m */,
 				7BF219F41BB629620068640F /* GenericViewController.h */,
 				7BF219F51BB629620068640F /* GenericViewController.m */,
+				7BF219FA1BB62A3D0068640F /* MarketListViewController.h */,
+				7BF219FB1BB62A3D0068640F /* MarketListViewController.m */,
 				7BF219F71BB629D30068640F /* ProductListViewController.h */,
 				7BF219F81BB629D30068640F /* ProductListViewController.m */,
 			);
@@ -271,10 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B50E4861AF851C7005E0F34 /* MarketListViewController.m in Sources */,
 				7B45E9A11AFAFB4000CA9101 /* CompanyModel.m in Sources */,
 				7BF219F61BB629620068640F /* GenericViewController.m in Sources */,
 				7B6ED2D81AFC507E00A04417 /* ProductModel.m in Sources */,
+				7BF219FC1BB62A3E0068640F /* MarketListViewController.m in Sources */,
 				7B50E4831AF851C7005E0F34 /* AppDelegate.m in Sources */,
 				7BF219F91BB629D40068640F /* ProductListViewController.m in Sources */,
 				7B50E4801AF851C7005E0F34 /* main.m in Sources */,
