@@ -134,13 +134,13 @@
 		7B50E47C1AF851C7005E0F34 /* BestOffer */ = {
 			isa = PBXGroup;
 			children = (
-				7B45E99E1AFAFB1500CA9101 /* Model */,
 				7B45E99C1AFAFADD00CA9101 /* AppDelegate */,
+				7B45E99A1AFAFAC400CA9101 /* Controller */,
 				7B50E48A1AF851C7005E0F34 /* Images.xcassets */,
 				7B50E48C1AF851C7005E0F34 /* LaunchScreen.xib */,
+				7B45E99E1AFAFB1500CA9101 /* Model */,
 				7B45E99D1AFAFAEC00CA9101 /* Storyboard */,
 				7B50E47D1AF851C7005E0F34 /* Supporting Files */,
-				7B45E99A1AFAFAC400CA9101 /* Controller */,
 			);
 			path = BestOffer;
 			sourceTree = "<group>";
