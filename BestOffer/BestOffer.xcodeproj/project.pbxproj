@@ -17,6 +17,7 @@
 		7B50E49A1AF851C7005E0F34 /* BestOfferTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B50E4991AF851C7005E0F34 /* BestOfferTests.m */; };
 		7B6ED2D81AFC507E00A04417 /* ProductModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6ED2D71AFC507E00A04417 /* ProductModel.m */; };
 		7BF219F61BB629620068640F /* GenericViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF219F51BB629620068640F /* GenericViewController.m */; settings = {ASSET_TAGS = (); }; };
+		7BF219F91BB629D40068640F /* ProductListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF219F81BB629D30068640F /* ProductListViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		7B6ED2D71AFC507E00A04417 /* ProductModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductModel.m; path = Model/ProductModel.m; sourceTree = "<group>"; };
 		7BF219F41BB629620068640F /* GenericViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GenericViewController.h; path = Controller/GenericViewController.h; sourceTree = "<group>"; };
 		7BF219F51BB629620068640F /* GenericViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GenericViewController.m; path = Controller/GenericViewController.m; sourceTree = "<group>"; };
+		7BF219F71BB629D30068640F /* ProductListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductListViewController.h; path = Controller/ProductListViewController.h; sourceTree = "<group>"; };
+		7BF219F81BB629D30068640F /* ProductListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductListViewController.m; path = Controller/ProductListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +79,8 @@
 				7B50E4851AF851C7005E0F34 /* MarketListViewController.m */,
 				7BF219F41BB629620068640F /* GenericViewController.h */,
 				7BF219F51BB629620068640F /* GenericViewController.m */,
+				7BF219F71BB629D30068640F /* ProductListViewController.h */,
+				7BF219F81BB629D30068640F /* ProductListViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -271,6 +276,7 @@
 				7BF219F61BB629620068640F /* GenericViewController.m in Sources */,
 				7B6ED2D81AFC507E00A04417 /* ProductModel.m in Sources */,
 				7B50E4831AF851C7005E0F34 /* AppDelegate.m in Sources */,
+				7BF219F91BB629D40068640F /* ProductListViewController.m in Sources */,
 				7B50E4801AF851C7005E0F34 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
