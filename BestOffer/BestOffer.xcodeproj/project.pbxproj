@@ -14,10 +14,12 @@
 		7B50E48B1AF851C7005E0F34 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B50E48A1AF851C7005E0F34 /* Images.xcassets */; };
 		7B50E48E1AF851C7005E0F34 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B50E48C1AF851C7005E0F34 /* LaunchScreen.xib */; };
 		7B50E49A1AF851C7005E0F34 /* BestOfferTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B50E4991AF851C7005E0F34 /* BestOfferTests.m */; };
+		7B60F6511BE45670001E3279 /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B60F64F1BE45670001E3279 /* ProductCell.m */; };
+		7B60F6521BE45670001E3279 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B60F6501BE45670001E3279 /* ProductCell.xib */; };
 		7B6ED2D81AFC507E00A04417 /* ProductModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6ED2D71AFC507E00A04417 /* ProductModel.m */; };
-		7BF219F61BB629620068640F /* GenericViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF219F51BB629620068640F /* GenericViewController.m */; settings = {ASSET_TAGS = (); }; };
-		7BF219F91BB629D40068640F /* ProductListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF219F81BB629D30068640F /* ProductListViewController.m */; settings = {ASSET_TAGS = (); }; };
-		7BF219FC1BB62A3E0068640F /* MarketListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF219FB1BB62A3D0068640F /* MarketListViewController.m */; settings = {ASSET_TAGS = (); }; };
+		7BF219F61BB629620068640F /* GenericViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF219F51BB629620068640F /* GenericViewController.m */; };
+		7BF219F91BB629D40068640F /* ProductListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF219F81BB629D30068640F /* ProductListViewController.m */; };
+		7BF219FC1BB62A3E0068640F /* MarketListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF219FB1BB62A3D0068640F /* MarketListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,9 @@
 		7B50E4931AF851C7005E0F34 /* BestOfferTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BestOfferTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B50E4981AF851C7005E0F34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B50E4991AF851C7005E0F34 /* BestOfferTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BestOfferTests.m; sourceTree = "<group>"; };
+		7B60F64E1BE45670001E3279 /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductCell.h; path = View/Cell/ProductCell.h; sourceTree = "<group>"; };
+		7B60F64F1BE45670001E3279 /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductCell.m; path = View/Cell/ProductCell.m; sourceTree = "<group>"; };
+		7B60F6501BE45670001E3279 /* ProductCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProductCell.xib; path = View/Cell/ProductCell.xib; sourceTree = "<group>"; };
 		7B6ED2D61AFC507E00A04417 /* ProductModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductModel.h; path = Model/ProductModel.h; sourceTree = "<group>"; };
 		7B6ED2D71AFC507E00A04417 /* ProductModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductModel.m; path = Model/ProductModel.m; sourceTree = "<group>"; };
 		7BF219F41BB629620068640F /* GenericViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GenericViewController.h; path = Controller/GenericViewController.h; sourceTree = "<group>"; };
@@ -134,6 +139,7 @@
 		7B50E47C1AF851C7005E0F34 /* BestOffer */ = {
 			isa = PBXGroup;
 			children = (
+				7B60F64C1BE45640001E3279 /* View */,
 				7B45E99C1AFAFADD00CA9101 /* AppDelegate */,
 				7B45E99A1AFAFAC400CA9101 /* Controller */,
 				7B50E48A1AF851C7005E0F34 /* Images.xcassets */,
@@ -169,6 +175,24 @@
 				7B50E4981AF851C7005E0F34 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B60F64C1BE45640001E3279 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7B60F64D1BE45648001E3279 /* Cell */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7B60F64D1BE45648001E3279 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7B60F64E1BE45670001E3279 /* ProductCell.h */,
+				7B60F64F1BE45670001E3279 /* ProductCell.m */,
+				7B60F6501BE45670001E3279 /* ProductCell.xib */,
+			);
+			name = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B50E4891AF851C7005E0F34 /* Main.storyboard in Resources */,
+				7B60F6521BE45670001E3279 /* ProductCell.xib in Resources */,
 				7B50E48E1AF851C7005E0F34 /* LaunchScreen.xib in Resources */,
 				7B50E48B1AF851C7005E0F34 /* Images.xcassets in Resources */,
 			);
@@ -272,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B45E9A11AFAFB4000CA9101 /* CompanyModel.m in Sources */,
+				7B60F6511BE45670001E3279 /* ProductCell.m in Sources */,
 				7BF219F61BB629620068640F /* GenericViewController.m in Sources */,
 				7B6ED2D81AFC507E00A04417 /* ProductModel.m in Sources */,
 				7BF219FC1BB62A3E0068640F /* MarketListViewController.m in Sources */,
